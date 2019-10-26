@@ -24,7 +24,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/primeng/resources/themes/nova-light/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/font-awesome/css/font-awesome.min.css"
             ],
             "scripts": []
           },
@@ -121,5 +125,11 @@
         }
       }
     }},
-  "defaultProject": "dev-na-pratica-frontend-basico"
+  "defaultProject": "dev-na-pratica-frontend-basico",
+  "schematics": {
+    "@schematics/angular:module": {
+      "routing": true,
+      "spec": false
+    }
+  }
 }
